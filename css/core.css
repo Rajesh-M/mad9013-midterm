@@ -14,7 +14,7 @@ html, body{
 
 .mainnav{
     margin-bottom: 2.5%;
-    border: 1px solid;
+    border: 2px solid;
     border-color: #d0d1d5;
 }
 
@@ -49,14 +49,14 @@ p img{
     padding: 1%;
     background-position: center;
     text-align: center;
-    border: 1px solid;
-    border-color: #d0d1d5;
+    border: 2px solid;
+    border-color: #E2DDE0;
     margin-bottom: 2%;
 }
 
 .primary{
     box-shadow: 3px 3px 3px #999C9E;
-    border: 1px solid;
+    border: 2px solid;
     padding: 1%;
     margin-bottom: 2%;
     border-color:  #E2DDE0;
@@ -65,7 +65,7 @@ p img{
 
 .secondary{
     box-shadow: 3px 3px 3px #999C9E;
-    border: 1px solid;
+    border: 2px solid;
     padding: 1%;
     margin-bottom: 2%;
     border-color: #E2DDE0;
@@ -74,7 +74,7 @@ p img{
 
 .side{
     box-shadow: 3px 3px 3px #999C9E;
-    border: 1px solid;
+    border: 2px solid;
     padding: 1%;
     margin-bottom: 2%;
     border-color:  #E2DDE0;
