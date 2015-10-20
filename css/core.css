@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Helvetica Neue', Calibri, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: #F3F3F3;
+}
+
+.mainnav{
+    margin-bottom: 2.5%;
+    border: 1px solid;
+    border-color: #d0d1d5;
+}
+
+.mainnav ul li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.mainnav ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #010101;
+}
+
+
+p img{
+    width: 100%;
+}
+
+.masthead {
+    min-height: 20rem;
+    background: url("http://lorempixel.com/1200/900/cats/") no-repeat;
+    line-height: 10;
+    color: #FFFFFF;
+    font-size: 1rem;
+    background-size: cover;
+    padding: 1%;
+    background-position: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: #d0d1d5;
+}
+
+.primary{
+    box-shadow: 3px 3px 3px #999C9E;
+    border: 1px solid;
+    padding: 1%;
+    border-color:  #E2DDE0;
+    border-radius: 2px;
+}
+
+.secondary{
+    box-shadow: 3px 3px 3px #999C9E;
+    border: 1px solid;
+    padding: 1%;
+    border-color: #E2DDE0;
+    border-radius: 2px;
+}
+
+.side{
+    box-shadow: 3px 3px 3px #999C9E;
+    border: 1px solid;
+    padding: 1%;
+    border-color:  #E2DDE0;
+    border-radius: 2px;
+}
+
+.footer{
+    box-shadow: 3px 3px 3px #999C9E;
+    border: 2px solid;
+    border-color: #E2DDE0;
+    border-radius: 2px;
+    margin-bottom: 2.5%;
+}
+
+
+@media all and (min-width: 30rem) and (max-width: 59.9rem){
+    .masthead{
+        color: #FFFFFF;
+        font-size: 1.7rem;
+        margin-bottom: 1.5%;
+        height: 20rem;
+        line-height: 20rem;
+    }
+
+    .mainnav ul li{
+        display: inline-block;
+        float: left;
+        width: 25%;
+        margin-bottom: 1.5%;
+    }
+
+    .mainnav ul li a{
+        padding: 1.5% 0;
+    }
+
+    .content{
+        float: left;
+        width: 63%;
+    }
+
+    .primary{
+        margin-bottom: 2.5%;
+    }
+
+    .secondary{
+        margin-bottom: 2.5%;
+    }
+
+    .side{
+        float: right;
+        width: 36%;
+        margin-bottom: 2.5%;
+    }
+
+    .footer{
+        clear: both;
+        margin-bottom: 2.5%;
+        padding: 2%;
+    }
+
+}
+
+@media all and (min-width: 59.9rem){
+    body{
+        margin: 0px;
+    }
+
+    .wrapper{
+        margin: 0 0.5%;
+        padding-top: 21rem;
+    }
+
+    .masthead{
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        height: 20rem;
+        line-height: 3.5;
+        margin-bottom: 1%;
+        font-size: 2.7rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .mainnav{
+        float: left;
+        width: 25%;
+        box-shadow: 3px 3px 3px #999C9E;
+    }
+
+    .mainnav ul li a{
+        text-align: center
+    }
+
+    .primary{
+        padding: 1%;
+        margin-left: 1%;
+        width: 49%;
+        float: left;
+        margin-bottom: 1%;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    .secondary{
+        padding: 1%;
+        margin-left: 1%;
+        width: 24%;
+        float: left;
+        margin-bottom: 1%;
+    }
+
+    .side{
+        padding: 1%;
+        margin-left: 1%;
+        width: 24%;
+        float: right;
+        margin-bottom: 1%;
+    }
+
+    .footer{
+        padding: 1%;
+        margin-bottom: 1%;
+        clear: both;
+    }
+}
