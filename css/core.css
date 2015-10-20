@@ -32,7 +32,7 @@ html, body{
 
 
 .mainnav ul li a:hover{
-    background-color: #736B67;
+    background-color: #D3DAD2;
 }
 
 p img{
@@ -153,6 +153,9 @@ p img{
         float: left;
         width: 25%;
         box-shadow: 3px 3px 3px #999C9E;
+        padding-bottom: 24.2vw;
+        background: url("http://lorempixel.com/400/400/cats/") no-repeat center 95%;
+        background-size: 95% auto;
     }
 
     .mainnav ul li a{
