@@ -27,10 +27,13 @@ html, body{
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #FFFFFF;
     color: #010101;
 }
 
+
+.mainnav ul li a:hover{
+    background-color: #736B67;
+}
 
 p img{
     width: 100%;
